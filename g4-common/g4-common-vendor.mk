@@ -93,6 +93,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+    vendor/lge/g4-common/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
+    vendor/lge/g4-common/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
+    vendor/lge/g4-common/proprietary/lib/libopcamerahw_interface.so:system/lib/libopcamerahw_interface.so \
+    vendor/lge/g4-common/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
+    vendor/lge/g4-common/proprietary/lib64/libopcameralib.so:system/lib64/libopcameralib.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
