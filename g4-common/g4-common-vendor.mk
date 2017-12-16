@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/g4-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/lge/g4-common/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/lge/g4-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/g4-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lge/g4-common/proprietary/bin/imswmsproxy:system/bin/imswmsproxy \
     vendor/lge/g4-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
