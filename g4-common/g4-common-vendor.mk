@@ -536,7 +536,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
@@ -753,6 +752,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libwvm.so:system/vendor/lib64/libwvm.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
