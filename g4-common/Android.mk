@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter h811 h815,$(TARGET_DEVICE)),)
+ifneq ($(filter h811 h815 h810 h818,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libcir_driver
