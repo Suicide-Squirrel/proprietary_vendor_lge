@@ -799,9 +799,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/lge/g4-common/proprietary/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
-    vendor/lge/g4-common/proprietary/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/g4-common/proprietary/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin 
+    vendor/lge/g4-common/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/lge/g4-common/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/g4-common/proprietary/vendor/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin
 
 PRODUCT_PACKAGES += \
     libcir_driver \
