@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/loc_launcher:$(TARGET_COPY_OUT_SYSTEM)/bin/loc_launcher \
     vendor/lge/g4-common/proprietary/bin/lowi-server:$(TARGET_COPY_OUT_SYSTEM)/bin/lowi-server \
     vendor/lge/g4-common/proprietary/bin/qseecom_sample_client:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecom_sample_client \
-    vendor/lge/g4-common/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
     vendor/lge/g4-common/proprietary/bin/tftp_server:$(TARGET_COPY_OUT_SYSTEM)/bin/tftp_server \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:$(TARGET_COPY_OUT_SYSTEM)/bin/xtwifi-client \
     vendor/lge/g4-common/proprietary/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_SYSTEM)/bin/xtwifi-inet-agent \
