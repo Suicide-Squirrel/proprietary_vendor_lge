@@ -825,7 +825,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     TimeService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     com.quicinc.cne.constants@1.0.so \
     com.qti.location.sdk \
