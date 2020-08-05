@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/tftp_server:$(TARGET_COPY_OUT_SYSTEM)/bin/tftp_server \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:$(TARGET_COPY_OUT_SYSTEM)/bin/xtwifi-client \
     vendor/lge/g4-common/proprietary/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_SYSTEM)/bin/xtwifi-inet-agent \
+    vendor/lge/g4-common/proprietary/etc/voicemail-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/voicemail-conf.xml \
     vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/dsi_config.xml \
     vendor/lge/g4-common/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/netmgr_config.xml \
     vendor/lge/g4-common/proprietary/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/qmi_config.xml \
