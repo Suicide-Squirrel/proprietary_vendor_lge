@@ -70,8 +70,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/liblgmabl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblgmabl.so \
     vendor/lge/g4-common/proprietary/lib/libmdmcutback.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdmcutback.so \
     vendor/lge/g4-common/proprietary/lib/libmotext_inf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmotext_inf.so \
+    vendor/lge/g4-common/proprietary/lib/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-29a.so \
+    vendor/lge/g4-common/proprietary/lib/libprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-29a.so \
     vendor/lge/g4-common/proprietary/lib/libqmimotext.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuicc.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_common_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_core.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_common_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_idl.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_common_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_iface.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_nv_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_core.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_nv_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_idl.so \
+    vendor/lge/g4-common/proprietary/lib/libvss_nv_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_nv_iface.so \
     vendor/lge/g4-common/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/lge/g4-common/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/lge/g4-common/proprietary/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsoftkeymaster.so \
@@ -83,9 +91,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/liblgmabl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblgmabl.so \
     vendor/lge/g4-common/proprietary/lib64/libmdmcutback.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdmcutback.so \
     vendor/lge/g4-common/proprietary/lib64/libmotext_inf.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotext_inf.so \
+    vendor/lge/g4-common/proprietary/lib64/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-29a.so \
+    vendor/lge/g4-common/proprietary/lib64/libprotobuf-cpp-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-29a.so \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqdMetaData.so \
     vendor/lge/g4-common/proprietary/lib64/libqmimotext.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libuicc.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_common_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_common_core.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_common_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_common_idl.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_common_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_common_iface.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_nv_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_core.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_nv_idl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_idl.so \
+    vendor/lge/g4-common/proprietary/lib64/libvss_nv_iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvss_nv_iface.so \
     vendor/lge/g4-common/proprietary/lib64/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfilterpack_facedetect.so \
     vendor/lge/g4-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/lge/g4-common/proprietary/vendor/bin/bdaddr_loader:$(TARGET_COPY_OUT_VENDOR)/bin/bdaddr_loader \
@@ -142,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/activity_recognition.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/gps.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/keystore.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-dplmedia.so \
     vendor/lge/g4-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-ims-rcscmjni.so \
@@ -521,8 +538,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_performance.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-ltedirectdisc.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilqmiservices.so \
     vendor/lge/g4-common/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
     vendor/lge/g4-common/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/lge/g4-common/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
@@ -604,6 +624,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/activity_recognition.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/gps.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/keystore.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so \
@@ -751,8 +772,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_performance.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
